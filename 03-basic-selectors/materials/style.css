@@ -1,0 +1,26 @@
+html {
+	background: yellow;
+}
+
+body {
+	width:700px;
+	background: white;
+	margin:0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #B88100;
+}
+body {
+	padding: 200px;
+}
+
+h1 + p {
+	color:#FF6814;
+}
+p:nth-child(5) {
+	border: 5px dotted orange;
+    padding: 20px;
+    background: yellow;
+}
+
